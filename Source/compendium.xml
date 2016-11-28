@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <compendium version="5">
-<!--Spell Attack rolls assume PROF added to roll, not applicable for Ranged while engaged in Melee range-->
-<!--replaced ":" as intro to list with ".", and as in-line text with " - "-->
-<!--after bold w/ : is implemented in app, check "x - x:" (e.g. "Reincarnate")-->
-<!--after bold w/ : is implemented in app, check stats table from "Animate Objects"-->
-<!--after bold w/ : is implemented in app, check "Storm of Vengeance"-->
 	<spell>
 		<name>Acid Splash</name>
 		<level>0</level>
@@ -885,7 +880,7 @@
 		<classes>Cleric, Paladin (Devotion)</classes>
 		<text>You contact your deity or a divine proxy and ask up to three questions that can be answered with a yes or no. You must ask your questions before the spell ends. You receive a correct answer for each question.</text>
 		<text/>
-		<text>Divine beings aren't necessarily omniscient, so you might receive "unclear" as an answer if a question pertains to information that lies beyond the deity's knowledge. In a case where a one-word answer could be misleading or contrary to the deity's interests, the DM might offer a short phrase as an answer instead.</text>
+		<text>Divine beings aren't necessarily omniscient, so you might receive &quot;unclear&quot; as an answer if a question pertains to information that lies beyond the deity's knowledge. In a case where a one-word answer could be misleading or contrary to the deity's interests, the DM might offer a short phrase as an answer instead.</text>
 		<text/>
 		<text>If you cast the spell two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer. The DM makes this roll in secret.</text>
 	</spell>
@@ -5234,11 +5229,11 @@
 		<text>Description - 01-43 - 44-53 - 54-73 - 74-100</text>
 		<text>False Description - 01-50 - 51-100 - x - x</text>
 		<text/>
-		<text>Familiarity: "Permanent Circle" means a permanent teleportation circle whose sigil sequence you know. "Associated Object" means that you possess an object taken from the desired destination within the last six months, such as a book from a wizard's library, bed linen from a royal suite, or a chunk of marble from a Lich's secret tomb.</text>
+		<text>Familiarity: &quot;Permanent Circle&quot; means a permanent teleportation circle whose sigil sequence you know. &quot;Associated Object&quot; means that you possess an object taken from the desired destination within the last six months, such as a book from a wizard's library, bed linen from a royal suite, or a chunk of marble from a Lich's secret tomb.</text>
 		<text/>
-		<text>"Very Familiar" is a place you have been very often, a place you have carefully studied, or a place you can see when you cast the spell. "Seen Casually" is some place you have seen more than once but with which you aren't very familiar. "Viewed Once" is a place you have seen once, possibly using magic. "Description" is a place whose location and appearance you know through someone else's description, perhaps from a map.</text>
+		<text>&quot;Very Familiar&quot; is a place you have been very often, a place you have carefully studied, or a place you can see when you cast the spell. &quot;Seen Casually&quot; is some place you have seen more than once but with which you aren't very familiar. &quot;Viewed Once&quot; is a place you have seen once, possibly using magic. &quot;Description&quot; is a place whose location and appearance you know through someone else's description, perhaps from a map.</text>
 		<text/>
-		<text>"False Description" is a place that doesn't exist. Perhaps you tried to scry an enemy's sanctum but instead viewed an illusion, or you are attempting to teleport to a familiar location that no longer exists.</text>
+		<text>&quot;False Description&quot; is a place that doesn't exist. Perhaps you tried to scry an enemy's sanctum but instead viewed an illusion, or you are attempting to teleport to a familiar location that no longer exists.</text>
 		<text/>
 		<text>On Target: You and your group (or the target object) appear where you want to go.</text>
 		<text/>
@@ -5805,3 +5800,4 @@
 		<text>An affected creature is aware of the spell and can thus avoid answering questions to which it would normally respond with a lie. Such creatures can be evasive in its answers as long as it remains within the boundaries of the truth.</text>
 	</spell>
 </compendium>
+

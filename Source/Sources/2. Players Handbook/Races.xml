@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<compendium version="5">
+	<subrace base="Dwarf">
+		<name>Dwarf (Mountain)</name>
+		<ability>Str 2</ability>
+		<trait>
+			<name>Dwarven Armor Training</name>
+			<text>You have proficiency with light and medium armor.</text>
+		</trait>
+	</subrace>
+	<subrace base="Elf">
+		<name>Elf (Wood)</name>
+		<ability>Wis 1</ability>
+		<proficiency>Perception</proficiency>
+		<trait>
+			<name>Elf Weapon Training</name>
+			<text>You have proficiency with the longsword, shortsword, shortbow, and longbow.</text>
+		</trait>
+		<trait>
+			<name>Fleet of Foot</name>
+			<text>Your base walking speed increases to 35 feet.</text>
+		</trait>
+		<trait>
+			<name>Mask of the Wild</name>
+			<text>You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</text>
+		</trait>
+	</subrace>
+	<subrace base="Elf">
+		<name>Elf (Drow)</name>
+		<ability>Cha 1</ability>
+		<trait>
+			<name>Sunlight Sensitivity</name>
+			<text>You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</text>
+		</trait>
+		<trait>
+			<name>Drow Magic</name>
+			<text>You know the dancing lights cantrip. When you reach 3rd level, you can cast the faerie fire spell once per day; you must finish a long rest in order to cast the spell again using this trait. When you reach 5th level, you can also cast the darkness spell once per day; you must finish a long rest in order to cast the spell again using this trait. Charisma is your spellcasting ability for these spells.</text>
+		</trait>
+		<trait>
+			<name>Drow Weapon Training</name>
+			<text>You have proficiency with rapiers, shortswords, and hand crossbows.</text>
+		</trait>
+	</subrace>
+	<subrace base="Halfling">
+		<name>Halfling (Stout)</name>
+		<ability>Con 1</ability>
+		<trait>
+			<name>Stout Resilience</name>
+			<text>You have advantage on saving throws against poison, and you have resistance against poison damage.</text>
+		</trait>
+	</subrace>
+	<race>
+		<name>Human (Variant)</name>
+		<size>M</size>
+		<speed>30</speed>
+		<trait>
+			<name>Ability Score Increase</name>
+			<text>Two different ability scores of your choice increase by 1.</text>
+		</trait>
+		<trait>
+			<name>Skills</name>
+			<text>You gain proficiency in one skill of your choice.</text>
+		</trait>
+		<trait>
+			<name>Feat</name>
+			<text>You gain one feat of your choice.</text>
+		</trait>
+		<trait>
+			<name>Languages</name>
+			<text>You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.</text>
+		</trait>
+	</race>
+	<subrace base="Gnome">
+		<name>Gnome (Forest)</name>
+		<ability>Dex 1</ability>
+		<trait>
+			<name>Natural Illusionist</name>
+			<text>You know the minor illusion cantrip. Intelligence is your spellcasting ability for it.</text>
+		</trait>
+		<trait>
+			<name>Speak with Small Beasts</name>
+			<text>Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts. Forest gnomes love animals and often keep squirrels, badgers, rabbits, moles, woodpeckers, and other creatures as beloved pets.</text>
+		</trait>
+	</subrace>
+</compendium>
